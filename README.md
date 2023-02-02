@@ -8,9 +8,9 @@ As a group (four students) we were required to review and improve an existing we
 Each student in our group took that design and individually developed our Union Tattoo website using hmtl, css, bootstrap 5 and Sass.
 
 ## Mock-ups of Re-designed Union Tattoo Website
-![Union Tattoo Desktop Mockup]![(Union_desktop](https://user-images.githubusercontent.com/115663122/216204018-a46d3556-053d-4f3b-999d-55b4f4e3432a.png)
+![(Union_desktop](https://user-images.githubusercontent.com/115663122/216204018-a46d3556-053d-4f3b-999d-55b4f4e3432a.png)
 
-![Union Tattoo Desktop Mockup]![MacBook Air_Union_home](https://user-images.githubusercontent.com/115663122/216265249-c4bd35d7-29f5-44a2-bb10-e04c99b86fe6.png)
+![MacBook Air_Union_home](https://user-images.githubusercontent.com/115663122/216265249-c4bd35d7-29f5-44a2-bb10-e04c99b86fe6.png)
 
 ![iPad Mini in 4 colors_artist_tablet](https://user-images.githubusercontent.com/115663122/216265569-b2526945-5ae5-4e2a-add6-07dbfcd2ca22.png)
 
