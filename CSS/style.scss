@@ -1,0 +1,176 @@
+// Imports and partials at tops of sass
+@import '_colors';
+@import '_font';
+
+
+// Remove all border radius
+* {
+    border-radius: 0 !important;
+}
+
+// Change bootstrap bg-dark to brand colour
+.bg-dark {
+    background-color: $black;
+}
+
+// Change bootstrap navbar bg-dark to brand colour
+.navbar .navbar-expand-lg {
+    background-color: $black;
+    color: $white;
+}
+
+.nav-item .nav-link {
+    color: $white;
+}
+
+.nav-item .nav-link:hover {
+    background-color: $gold;
+    color: $white;
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+}
+
+// Instagram Icon
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+// Instagram icon hover
+.fa:hover {
+    background-color: $gold;
+    color: $white;
+}
+
+// Instagram icon colour 
+.fa-instagram {
+    background: $black;
+    color: $white;
+}
+
+// Toogle bar colour and position
+.fa-bars {
+    color: $white;
+}
+
+// Album Card colour
+.album .bg-light {
+    background-color: $white;
+}
+
+// Button colour 
+.btn-group .btn-outline-secondary {
+    background-color: $black;
+    color: $white;
+}
+
+// Button hover colour
+.btn-group .btn-outline-secondary:hover {
+    background-color: $gold;
+    color: $white;
+}
+
+// Carousel arrows
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    position: relative;
+    top: -450px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    position: relative;
+    top: -450px;
+}
+
+// Profile text spacing
+.profile {
+    line-height: 180%;
+}
+
+// Google maps on Contact page
+.gmap_canvas img {
+    max-width: none !important;
+    background: none !important
+}
+
+// FAQ accoridain button on Contact page
+.accordion-button {
+    background-color: $gold;
+    color: $black;
+    font-weight: 600;
+}
+
+// FAQ accordian colours
+.accordion-button:not(.collapsed) {
+    background-color: $white;
+    color: $gold;
+    border-color: $black;
+}
+
+
+
+// Mobile responsive view
+@media screen and (max-width: 768px) {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        position: relative;
+        top: -1700px;
+    }
+
+    // Hide copyright text
+    .text-muted {
+        display: none;
+    }
+
+    // Shop address in footer
+    .address {
+        font-size: .8rem;
+    }
+
+    // Menu headings
+    .navbar-nav {
+        align-items: center;
+    }
+
+    // Brand logo
+    .navbar-brand {
+        float: none;
+        display: block;
+        max-width: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0rem;
+    }
+}
+
+// Tablet responsive view
+@media screen and (max-width: 992px) {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        position: relative;
+        top: -1700px;
+    }
+
+    // Menu headings
+    .navbar-nav {
+        align-items: center;
+    }
+
+    // Brand logo
+    .navbar-brand {
+        float: none;
+        display: block;
+        max-width: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0rem;
+    }
+
+}
