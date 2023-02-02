@@ -12,7 +12,8 @@ Each student in our group took that design and individually developed our Union 
 
 ![union_tattoo_contact](https://user-images.githubusercontent.com/115663122/216268912-9b0ac505-5ac0-4e3f-878c-798b83d53e43.png)
 
-![union_tattoo_tablet](https://user-images.githubusercontent.com/115663122/216268464-23d65d34-d30f-4e9d-842c-e8bb741ccc42.png)
+![union_tattoo_tablet](https://user-images.githubusercontent.com/115663122/216269921-d303a886-2c8b-48ae-bbf1-e530224abb04.png)
+
 
 
 
