@@ -39,22 +39,22 @@ h4 {
   padding-left: 1rem;
 }
 
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
+.social-icons {
+  margin: 20px;
+}
+
+.social-icons a {
   text-decoration: none;
+  font-size: 40px;
+  margin-right: 15px;
+  color: #fffcf5;
+  display: inline-block;
+  transition: transform 0.5s ease-out;
 }
 
-.fa:hover {
-  background-color: #d1bb6b;
-  color: #fffcf5;
-}
-
-.fa-instagram {
-  background: #0D1814;
-  color: #fffcf5;
+.social-icons a:hover {
+  color: #d1bb6b;
+  transform: translateY(-5px);
 }
 
 .fa-bars {
@@ -110,7 +110,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
   .carousel-control-next-icon,
-.carousel-control-prev-icon {
+  .carousel-control-prev-icon {
     position: relative;
     top: -1700px;
   }
@@ -118,7 +118,7 @@ h4 {
     display: none;
   }
   .address {
-    font-size: 0.8rem;
+    font-size: 12px;
   }
   .navbar-nav {
     align-items: center;
@@ -134,7 +134,7 @@ h4 {
 }
 @media screen and (max-width: 992px) {
   .carousel-control-next-icon,
-.carousel-control-prev-icon {
+  .carousel-control-prev-icon {
     position: relative;
     top: -1700px;
   }
